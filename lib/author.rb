@@ -9,8 +9,8 @@ class Author
   end
 
   def posts
-    Post.all.select do |posts|
-      post.author == self
+    Post.all.select do |post|
+      posts.author == self
   end
 
   def self.post_count
