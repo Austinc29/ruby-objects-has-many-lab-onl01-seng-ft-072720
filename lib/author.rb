@@ -9,9 +9,6 @@ class Author
   def initialize(name)
     @name = name
     @posts = []
-  end
-  def initialize(posts)
-    @posts = posts 
   end 
 
   def add_post(post)
