@@ -10,6 +10,9 @@ class Author
     @name = name
     @posts = []
   end
+  def initialize(posts)
+    @posts = posts 
+  end 
 
   def add_post(post)
     @posts << post
